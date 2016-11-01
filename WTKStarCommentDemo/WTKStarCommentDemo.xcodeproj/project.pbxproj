@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F56CFDBC1DC86BB6001727E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F56CFDBB1DC86BB6001727E7 /* main.m */; };
+		F56CFDBF1DC86BB6001727E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F56CFDBE1DC86BB6001727E7 /* AppDelegate.m */; };
+		F56CFDC21DC86BB6001727E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56CFDC11DC86BB6001727E7 /* ViewController.m */; };
+		F56CFDC51DC86BB6001727E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56CFDC31DC86BB6001727E7 /* Main.storyboard */; };
+		F56CFDC71DC86BB6001727E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56CFDC61DC86BB6001727E7 /* Assets.xcassets */; };
+		F56CFDCA1DC86BB6001727E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56CFDC81DC86BB6001727E7 /* LaunchScreen.storyboard */; };
+		F56CFDD51DC86BB6001727E7 /* WTKStarCommentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F56CFDD41DC86BB6001727E7 /* WTKStarCommentDemoTests.m */; };
+		F56CFDE01DC86BB6001727E7 /* WTKStarCommentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F56CFDDF1DC86BB6001727E7 /* WTKStarCommentDemoUITests.m */; };
+		F56CFDF41DC86C56001727E7 /* w_star_red.png in Resources */ = {isa = PBXBuildFile; fileRef = F56CFDEE1DC86C56001727E7 /* w_star_red.png */; };
+		F56CFDF51DC86C56001727E7 /* w_star_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F56CFDEF1DC86C56001727E7 /* w_star_red@2x.png */; };
+		F56CFDF61DC86C56001727E7 /* w_star_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F56CFDF01DC86C56001727E7 /* w_star_red@3x.png */; };
+		F56CFDF71DC86C56001727E7 /* w_star_white.png in Resources */ = {isa = PBXBuildFile; fileRef = F56CFDF11DC86C56001727E7 /* w_star_white.png */; };
+		F56CFDF81DC86C56001727E7 /* w_star_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F56CFDF21DC86C56001727E7 /* w_star_white@2x.png */; };
+		F56CFDF91DC86C56001727E7 /* w_star_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F56CFDF31DC86C56001727E7 /* w_star_white@3x.png */; };
+		F56CFDFC1DC86C67001727E7 /* WTKStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56CFDFB1DC86C67001727E7 /* WTKStarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F56CFDD11DC86BB6001727E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F56CFDAF1DC86BB6001727E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56CFDB61DC86BB6001727E7;
+			remoteInfo = WTKStarCommentDemo;
+		};
+		F56CFDDC1DC86BB6001727E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F56CFDAF1DC86BB6001727E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56CFDB61DC86BB6001727E7;
+			remoteInfo = WTKStarCommentDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F56CFDB71DC86BB6001727E7 /* WTKStarCommentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTKStarCommentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56CFDBB1DC86BB6001727E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F56CFDBD1DC86BB6001727E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F56CFDBE1DC86BB6001727E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F56CFDC01DC86BB6001727E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F56CFDC11DC86BB6001727E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F56CFDC41DC86BB6001727E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F56CFDC61DC86BB6001727E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F56CFDC91DC86BB6001727E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F56CFDCB1DC86BB6001727E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56CFDD01DC86BB6001727E7 /* WTKStarCommentDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKStarCommentDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56CFDD41DC86BB6001727E7 /* WTKStarCommentDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTKStarCommentDemoTests.m; sourceTree = "<group>"; };
+		F56CFDD61DC86BB6001727E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56CFDDB1DC86BB6001727E7 /* WTKStarCommentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKStarCommentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56CFDDF1DC86BB6001727E7 /* WTKStarCommentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTKStarCommentDemoUITests.m; sourceTree = "<group>"; };
+		F56CFDE11DC86BB6001727E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56CFDEE1DC86C56001727E7 /* w_star_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w_star_red.png; sourceTree = "<group>"; };
+		F56CFDEF1DC86C56001727E7 /* w_star_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "w_star_red@2x.png"; sourceTree = "<group>"; };
+		F56CFDF01DC86C56001727E7 /* w_star_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "w_star_red@3x.png"; sourceTree = "<group>"; };
+		F56CFDF11DC86C56001727E7 /* w_star_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w_star_white.png; sourceTree = "<group>"; };
+		F56CFDF21DC86C56001727E7 /* w_star_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "w_star_white@2x.png"; sourceTree = "<group>"; };
+		F56CFDF31DC86C56001727E7 /* w_star_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "w_star_white@3x.png"; sourceTree = "<group>"; };
+		F56CFDFA1DC86C67001727E7 /* WTKStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKStarView.h; sourceTree = "<group>"; };
+		F56CFDFB1DC86C67001727E7 /* WTKStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKStarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56CFDB41DC86BB6001727E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56CFDCD1DC86BB6001727E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56CFDD81DC86BB6001727E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F56CFDAE1DC86BB6001727E7 = {
+			isa = PBXGroup;
+			children = (
+				F56CFDB91DC86BB6001727E7 /* WTKStarCommentDemo */,
+				F56CFDD31DC86BB6001727E7 /* WTKStarCommentDemoTests */,
+				F56CFDDE1DC86BB6001727E7 /* WTKStarCommentDemoUITests */,
+				F56CFDB81DC86BB6001727E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F56CFDB81DC86BB6001727E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56CFDB71DC86BB6001727E7 /* WTKStarCommentDemo.app */,
+				F56CFDD01DC86BB6001727E7 /* WTKStarCommentDemoTests.xctest */,
+				F56CFDDB1DC86BB6001727E7 /* WTKStarCommentDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56CFDB91DC86BB6001727E7 /* WTKStarCommentDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F56CFDED1DC86C56001727E7 /* WTKStar */,
+				F56CFDBD1DC86BB6001727E7 /* AppDelegate.h */,
+				F56CFDBE1DC86BB6001727E7 /* AppDelegate.m */,
+				F56CFDC01DC86BB6001727E7 /* ViewController.h */,
+				F56CFDC11DC86BB6001727E7 /* ViewController.m */,
+				F56CFDC31DC86BB6001727E7 /* Main.storyboard */,
+				F56CFDC61DC86BB6001727E7 /* Assets.xcassets */,
+				F56CFDC81DC86BB6001727E7 /* LaunchScreen.storyboard */,
+				F56CFDCB1DC86BB6001727E7 /* Info.plist */,
+				F56CFDBA1DC86BB6001727E7 /* Supporting Files */,
+			);
+			path = WTKStarCommentDemo;
+			sourceTree = "<group>";
+		};
+		F56CFDBA1DC86BB6001727E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56CFDBB1DC86BB6001727E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F56CFDD31DC86BB6001727E7 /* WTKStarCommentDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F56CFDD41DC86BB6001727E7 /* WTKStarCommentDemoTests.m */,
+				F56CFDD61DC86BB6001727E7 /* Info.plist */,
+			);
+			path = WTKStarCommentDemoTests;
+			sourceTree = "<group>";
+		};
+		F56CFDDE1DC86BB6001727E7 /* WTKStarCommentDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F56CFDDF1DC86BB6001727E7 /* WTKStarCommentDemoUITests.m */,
+				F56CFDE11DC86BB6001727E7 /* Info.plist */,
+			);
+			path = WTKStarCommentDemoUITests;
+			sourceTree = "<group>";
+		};
+		F56CFDED1DC86C56001727E7 /* WTKStar */ = {
+			isa = PBXGroup;
+			children = (
+				F56CFDEE1DC86C56001727E7 /* w_star_red.png */,
+				F56CFDEF1DC86C56001727E7 /* w_star_red@2x.png */,
+				F56CFDF01DC86C56001727E7 /* w_star_red@3x.png */,
+				F56CFDF11DC86C56001727E7 /* w_star_white.png */,
+				F56CFDF21DC86C56001727E7 /* w_star_white@2x.png */,
+				F56CFDF31DC86C56001727E7 /* w_star_white@3x.png */,
+				F56CFDFA1DC86C67001727E7 /* WTKStarView.h */,
+				F56CFDFB1DC86C67001727E7 /* WTKStarView.m */,
+			);
+			path = WTKStar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56CFDB61DC86BB6001727E7 /* WTKStarCommentDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56CFDE41DC86BB6001727E7 /* Build configuration list for PBXNativeTarget "WTKStarCommentDemo" */;
+			buildPhases = (
+				F56CFDB31DC86BB6001727E7 /* Sources */,
+				F56CFDB41DC86BB6001727E7 /* Frameworks */,
+				F56CFDB51DC86BB6001727E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTKStarCommentDemo;
+			productName = WTKStarCommentDemo;
+			productReference = F56CFDB71DC86BB6001727E7 /* WTKStarCommentDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F56CFDCF1DC86BB6001727E7 /* WTKStarCommentDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56CFDE71DC86BB6001727E7 /* Build configuration list for PBXNativeTarget "WTKStarCommentDemoTests" */;
+			buildPhases = (
+				F56CFDCC1DC86BB6001727E7 /* Sources */,
+				F56CFDCD1DC86BB6001727E7 /* Frameworks */,
+				F56CFDCE1DC86BB6001727E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56CFDD21DC86BB6001727E7 /* PBXTargetDependency */,
+			);
+			name = WTKStarCommentDemoTests;
+			productName = WTKStarCommentDemoTests;
+			productReference = F56CFDD01DC86BB6001727E7 /* WTKStarCommentDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F56CFDDA1DC86BB6001727E7 /* WTKStarCommentDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56CFDEA1DC86BB6001727E7 /* Build configuration list for PBXNativeTarget "WTKStarCommentDemoUITests" */;
+			buildPhases = (
+				F56CFDD71DC86BB6001727E7 /* Sources */,
+				F56CFDD81DC86BB6001727E7 /* Frameworks */,
+				F56CFDD91DC86BB6001727E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56CFDDD1DC86BB6001727E7 /* PBXTargetDependency */,
+			);
+			name = WTKStarCommentDemoUITests;
+			productName = WTKStarCommentDemoUITests;
+			productReference = F56CFDDB1DC86BB6001727E7 /* WTKStarCommentDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F56CFDAF1DC86BB6001727E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王同科";
+				TargetAttributes = {
+					F56CFDB61DC86BB6001727E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F56CFDCF1DC86BB6001727E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F56CFDB61DC86BB6001727E7;
+					};
+					F56CFDDA1DC86BB6001727E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F56CFDB61DC86BB6001727E7;
+					};
+				};
+			};
+			buildConfigurationList = F56CFDB21DC86BB6001727E7 /* Build configuration list for PBXProject "WTKStarCommentDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F56CFDAE1DC86BB6001727E7;
+			productRefGroup = F56CFDB81DC86BB6001727E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56CFDB61DC86BB6001727E7 /* WTKStarCommentDemo */,
+				F56CFDCF1DC86BB6001727E7 /* WTKStarCommentDemoTests */,
+				F56CFDDA1DC86BB6001727E7 /* WTKStarCommentDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56CFDB51DC86BB6001727E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56CFDF81DC86C56001727E7 /* w_star_white@2x.png in Resources */,
+				F56CFDCA1DC86BB6001727E7 /* LaunchScreen.storyboard in Resources */,
+				F56CFDF91DC86C56001727E7 /* w_star_white@3x.png in Resources */,
+				F56CFDC71DC86BB6001727E7 /* Assets.xcassets in Resources */,
+				F56CFDC51DC86BB6001727E7 /* Main.storyboard in Resources */,
+				F56CFDF61DC86C56001727E7 /* w_star_red@3x.png in Resources */,
+				F56CFDF71DC86C56001727E7 /* w_star_white.png in Resources */,
+				F56CFDF51DC86C56001727E7 /* w_star_red@2x.png in Resources */,
+				F56CFDF41DC86C56001727E7 /* w_star_red.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56CFDCE1DC86BB6001727E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56CFDD91DC86BB6001727E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56CFDB31DC86BB6001727E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56CFDC21DC86BB6001727E7 /* ViewController.m in Sources */,
+				F56CFDBF1DC86BB6001727E7 /* AppDelegate.m in Sources */,
+				F56CFDBC1DC86BB6001727E7 /* main.m in Sources */,
+				F56CFDFC1DC86C67001727E7 /* WTKStarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56CFDCC1DC86BB6001727E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56CFDD51DC86BB6001727E7 /* WTKStarCommentDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56CFDD71DC86BB6001727E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56CFDE01DC86BB6001727E7 /* WTKStarCommentDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F56CFDD21DC86BB6001727E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56CFDB61DC86BB6001727E7 /* WTKStarCommentDemo */;
+			targetProxy = F56CFDD11DC86BB6001727E7 /* PBXContainerItemProxy */;
+		};
+		F56CFDDD1DC86BB6001727E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56CFDB61DC86BB6001727E7 /* WTKStarCommentDemo */;
+			targetProxy = F56CFDDC1DC86BB6001727E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F56CFDC31DC86BB6001727E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56CFDC41DC86BB6001727E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F56CFDC81DC86BB6001727E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56CFDC91DC86BB6001727E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F56CFDE21DC86BB6001727E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F56CFDE31DC86BB6001727E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56CFDE51DC86BB6001727E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTKStarCommentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKStarCommentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F56CFDE61DC86BB6001727E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTKStarCommentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKStarCommentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F56CFDE81DC86BB6001727E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKStarCommentDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKStarCommentDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKStarCommentDemo.app/WTKStarCommentDemo";
+			};
+			name = Debug;
+		};
+		F56CFDE91DC86BB6001727E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKStarCommentDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKStarCommentDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKStarCommentDemo.app/WTKStarCommentDemo";
+			};
+			name = Release;
+		};
+		F56CFDEB1DC86BB6001727E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKStarCommentDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKStarCommentDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKStarCommentDemo;
+			};
+			name = Debug;
+		};
+		F56CFDEC1DC86BB6001727E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKStarCommentDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKStarCommentDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKStarCommentDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56CFDB21DC86BB6001727E7 /* Build configuration list for PBXProject "WTKStarCommentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56CFDE21DC86BB6001727E7 /* Debug */,
+				F56CFDE31DC86BB6001727E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56CFDE41DC86BB6001727E7 /* Build configuration list for PBXNativeTarget "WTKStarCommentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56CFDE51DC86BB6001727E7 /* Debug */,
+				F56CFDE61DC86BB6001727E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F56CFDE71DC86BB6001727E7 /* Build configuration list for PBXNativeTarget "WTKStarCommentDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56CFDE81DC86BB6001727E7 /* Debug */,
+				F56CFDE91DC86BB6001727E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F56CFDEA1DC86BB6001727E7 /* Build configuration list for PBXNativeTarget "WTKStarCommentDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56CFDEB1DC86BB6001727E7 /* Debug */,
+				F56CFDEC1DC86BB6001727E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F56CFDAF1DC86BB6001727E7 /* Project object */;
+}
